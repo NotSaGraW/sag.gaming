@@ -16,7 +16,6 @@ Practical guide for Medieval Dynasty on the Oxbow map. Written for normal diffic
 |---|---|
 | [README.md](./README.md) | This document — full practical guide |
 | [pending.md](./pending.md) | Information awaiting in-game verification |
-| [patch-notes.md](./patch-notes.md) | Relevant game version changes |
 
 ---
 

@@ -289,10 +289,12 @@ Building everything as fast as possible is a trap — most buildings only make s
 | Hunting Lodge I | 50 Survival | Drying rack for preserving meat. Critical before winter |
 | Woodshed I | 100 Building | Only needed if you require planks — Tier 1 buildings use logs, sticks and straw only |
 
-**Buildings that look useful but aren't in year 1:**
-- **Kitchen I** — workstations are there but most recipes require processed ingredients you don't have yet
-- **Fishing Hut I** — requires 500 Survival tech and a fishing spear that isn't craftable at the lodge. Manual fishing with a spear is tedious and finding fish spawns takes time
-- **Smithy I** — unlocks at 50 Production tech but all useful schemes cost coins you don't have yet
+> **How to get Farming tech points early:** craft a Wooden Hoe (1 log + 5 sticks, hand-craftable), place a small field from the Q menu, and use the hoe on one or two plots. 5 points takes only a few minutes and unlocks Food Storage I. ⚠️ *pending verification — confirm that grubbing an empty field without seeds or fertiliser generates Farming tech points*
+
+**Useful buildings with prerequisites:**
+- **Kitchen I** (25 Production tech) — adds an Oven for baking and a Stone Grate for roasting. The house fireplace already covers roasting. Cauldron for soups and stews not observed in Tier 1 houses ⚠️ — if absent, Kitchen I is the only way to make them without a Tavern. Becomes more useful mid-year once you have crops and ingredients.
+- **Fishing Hut I** (500 Survival tech) — not viable early. Requires a fishing spear not craftable at the lodge, and manual spear fishing is tedious. Worth considering once Survival tech is high enough.
+- **Smithy I** (50 Production tech) — schemes cost coins you won't have at the start, but by winter with copper and tin stockpiled from mining, bronze production is entirely viable.
 
 Tier 1 buildings only require logs, sticks and straw — no planks needed. Planks only appear in Tier 2 construction onward.
 

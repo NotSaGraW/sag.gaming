@@ -4,6 +4,10 @@
 
 Practical guide for Medieval Dynasty on the Oxbow map. Written for normal difficulty, applicable to other settings.
 
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)
+![Version](https://img.shields.io/badge/game%20version-2.6.0.1-blue)
+![Status](https://img.shields.io/badge/status-active-green)
+
 ---
 
 ## Files

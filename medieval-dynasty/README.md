@@ -184,19 +184,69 @@ Boars charge in a straight line — sidestep to avoid. They yield 21 meat and 5 
 
 ### Metals
 
-| Metal | How to obtain | Requirement |
-|---|---|---|
-| Copper ore | Mine in caves with a pickaxe | Basic pickaxe |
-| Tin ore | Mine in caves with a pickaxe | Basic pickaxe |
-| Iron ore | Skauki mine (day 1) or Mine building at a cave entrance | Pickaxe / High Building tech |
-| Copper bar | Smelt copper ore at the Smithy | Smithy I (50 Production tech) |
-| Tin bar | Smelt tin ore at the Smithy | Smithy I |
-| Bronze bar | Combine copper bar + tin bar at the Smithy | Smithy I |
-| Iron bar | Smelt iron ore at the Smithy | High Production tech |
+**Smelting (Forge in Smithy):**
 
-- **Excavation Shed** produces copper ore without needing to be near a cave.
-- Mine resources respawn every season.
-- Ore and bars can be sold directly without a Smithy.
+| Bar | Resources | Sale price |
+|---|---|---|
+| Copper Bar | 2 Copper Ore | 28 |
+| Tin Bar | 2 Tin Ore | 35 |
+| Bronze Bar | 1 Copper Bar + 1 Tin Bar | 140 |
+| Iron Bar | 2 Iron Ore | 90 |
+
+Smelting is always worth it — 2 Copper Ore (7×2 = 14) → Copper Bar (28). 2 Tin Ore (8×2 = 16) → Tin Bar (35). Bronze Bar (140) from bars worth 63 combined — more than double. Sell bars, not ore.
+
+**Mining:**
+
+| Ore | Sale price | How to obtain | Requirement |
+|---|---|---|---|
+| Copper Ore | 7 | Mine in caves with a pickaxe, or Excavation Shed (also produces Stone, Straw, Limestone and Clay) | Basic pickaxe |
+| Tin Ore | 8 | Mine in caves with a pickaxe | Basic pickaxe |
+| Iron Ore | — | Skauki mine (day 1) or Mine building at a cave entrance | Pickaxe / High Building tech |
+| Salt | 7 | Mine in caves | Basic pickaxe |
+
+Mine resources respawn every season.
+
+**Anvil — Copper tools (50 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Copper Axe | ⚠️ | 1 log + 4 copper bars | 220 |
+| Copper Knife | 150 | 1 stick + 2 copper bars | 110 |
+| Copper Sickle | ⚠️ | 1 log + 2 copper bars | 120 |
+| Copper Hoe | ⚠️ | 1 log + 2 copper bars | 110 |
+| Copper Hammer | 100 | 2 copper bars + 1 log | 110 |
+| Copper Shovel | 100 | 2 logs + 4 copper bars | 220 |
+
+**Anvil — Bronze tools (500 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Bronze Axe | ⚠️ | 1 log + 2 bronze bars | 590 |
+| Bronze Pickaxe | ⚠️ | 1 log + 2 bronze bars | 590 |
+| Bronze Knife | ⚠️ | 1 stick + 1 bronze bar | 300 |
+| Bronze Scythe | ⚠️ | 1 stick + 1 log + 2 bronze bars | 590 |
+| Bronze Hoe | ⚠️ | 1 log + 2 bronze bars | 290 |
+| Bronze Hammer | 200 | 1 bronze bar + 1 stick | 290 |
+| Bronze Shovel | 200 | 1 log + 2 bronze bars | 590 |
+| Bronze Sickle | 250 | 1 log + 1 bronze bar | 200 |
+| Bronze Shearing Scissors (x2) | 200 | 1 bronze bar | 150 |
+
+**Anvil — Iron tools (5,000 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Iron Axe | ⚠️ | 1 log + 4 iron bars | 880 |
+| Iron Pickaxe | ⚠️ | 1 log + 4 iron bars | 880 |
+| Iron Knife | ⚠️ | 1 stick + 2 iron bars | 440 |
+| Iron Sickle | ⚠️ | 1 log + 2 iron bars | 440 |
+| Iron Hoe | ⚠️ | 1 log + 2 iron bars | 440 |
+| Iron Scythe | ⚠️ | 1 stick + 1 log + 4 iron bars | 880 |
+| Iron Hammer | ⚠️ | 2 iron bars + 1 stick | 400 |
+| Iron Shovel | ⚠️ | 1 log + 2 iron bars | 800 |
+| Iron Shearing Scissors | ⚠️ | 1 iron bar | 210 |
+| Iron Horseshoes | ⚠️ | 2 iron bars | 440 |
+
+> \* Sale prices reflect base value only — material gathering time not included. Bronze Knife (1 stick + 1 bronze bar) offers the best material-to-value ratio: sticks are free from the ground, and 1 bronze bar converts ~30 coins of ore into 300.
 
 ### Trees
 
@@ -245,14 +295,38 @@ Tech points accumulate by doing activities (building, crafting, farming, hunting
 - **Buildings** unlock automatically when you reach the required tech threshold — no additional cost.
 - **Schemes** must be purchased with coins from the **Technology tab** once the threshold is met. They are not sold by merchants.
 
-| Item | Tech points | Scheme cost |
+**Building tech:**
+
+| Building | Tech points |
+|---|---|
+| Resource Storage I | 50 |
+| Woodshed I | 100 |
+| Simple House | 250 |
+| Excavation Shed | 500 |
+| Resource Storage II | 1,000 |
+| House | 1,500 |
+| Woodshed II | 2,500 |
+| Mine | 5,000 |
+| Builder's Hut | 7,500 |
+| Resource Storage III | 10,000 |
+
+**Survival tech:**
+
+| Building | Tech points |
+|---|---|
+| Hunting Lodge I | 50 |
+| Herbalist's Hut I | 250 |
+| Fishing Hut I | 500 |
+| Hunting Lodge II | 1,000 |
+| Herbalist's Hut II | 1,500 |
+
+**Production tech — Smithy I unlocks at 50. All tools within each tier are available without scheme unless marked:**
+
+| Tier | Tech points | Items requiring scheme |
 |---|---|---|
-| Smithy I | 50 Production | — |
-| Copper Knife | 50 Production | 150 coins |
-| Herbalist's Hut I | 250 Survival | — |
-| Bronze Knife | 500 Production | 250 coins |
-| Iron Knife | 5,000 Production | 500 coins |
-| Iron Pickaxe | 5,000 Production | 750 coins |
+| Copper | 50 | Copper Knife (150), Copper Hammer (100), Copper Shovel (100) |
+| Bronze | 500 | Bronze Hammer (200), Bronze Shovel (200), Bronze Sickle (250), Bronze Shearing Scissors (200) |
+| Iron | 5,000 | None confirmed |
 
 ### Working Clothes
 
@@ -286,7 +360,7 @@ Building everything as fast as possible is a trap — most buildings only make s
 |---|---|---|
 | Food Storage I | 5 Farming | 500kg capacity. The Hunting Lodge I chest only holds 50kg — build this early if you plan to store significant amounts of food |
 | Resource Storage I | 50 Building | Allows production buildings within 50m to draw materials directly from it. NPCs can access it from any distance on the map |
-| Hunting Lodge I | 50 Survival | Drying rack for preserving meat. Critical before winter |
+| Hunting Lodge I | 50 Survival | Workbench and Drying Rack for crafting and preserving meat. Critical before winter |
 | Woodshed I | 100 Building | Only needed if you require planks — Tier 1 buildings use logs, sticks and straw only |
 
 > **How to get Farming tech points early:** craft a Wooden Hoe (1 log + 5 sticks, hand-craftable), place a small field from the Q menu, and use the hoe on one or two plots. 5 points takes only a few minutes and unlocks Food Storage I. ⚠️ *pending verification — confirm that grubbing an empty field without seeds or fertiliser generates Farming tech points*
@@ -295,7 +369,7 @@ Building everything as fast as possible is a trap — most buildings only make s
 
 - **Kitchen I** (25 Production tech) — Stone Grate, Cauldron and Oven for roasting, soups and baking.
 - **Fishing Hut I** (500 Survival tech) — requires a fishing spear not craftable at the lodge.
-- **Smithy I** (50 Production tech) — smelts ore into bars and crafts tools and weapons. Schemes require coins upfront.
+- **Smithy I** (50 Production tech) — smelts ore into bars and crafts tools and weapons. All recipes require purchasing a scheme. Best early profit: Bronze Knife (1 stick + 1 bronze bar → 300 coins).*
 
 Tier 1 buildings only require logs, sticks and straw — no planks needed. Planks only appear in Tier 2 construction onward.
 

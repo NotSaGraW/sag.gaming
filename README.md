@@ -1,4 +1,4 @@
-# sag.gaming
+# not.gaming
 
 Personal knowledge base for games I actively play. Guides, references, mechanics notes and build documentation — built to retain information across sessions and time.
 

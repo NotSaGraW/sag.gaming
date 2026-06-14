@@ -489,8 +489,11 @@ Manure on the floor, eggs in nests and manual milking/shearing are **player-only
 
 ### Feeding
 - **Animal Feed** = Oat Grain + Rye Grain + Straw
-- Unfed animals **do not starve**, but produce only **25%** and will not breed.
-- For breeding: one male + one female of the same species in the same building, fed, with a free space available.
+- Feed is consumed **daily** — animals enter the unfed state as soon as the feeder runs empty, not at season change
+- Unfed animals **do not starve**, but produce only **25%** and will not breed
+- Breeding is evaluated **at season change** — each female has a 15% chance per adult male in the same building (20% for horses and donkeys)
+- Feed is required for breeding, but whether having it only on the last day of the season is sufficient is unconfirmed ⚠️
+- For breeding: one male + one female of the same species in the same building, fed, with a free space available
 
 ### Lifespan (average years)
 

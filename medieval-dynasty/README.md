@@ -285,7 +285,7 @@ Building everything as fast as possible is a trap — most buildings only make s
 
 | Building | Tech points | Why it matters |
 |---|---|---|
-| Food Storage I | 5 Farming | Stores up to 500kg of food. Essential once you have a Hunting Lodge — the lodge's own chest only holds 50kg |
+| Food Storage I | 5 Farming | 500kg capacity. The Hunting Lodge I chest only holds 50kg — build this early if you plan to store significant amounts of food |
 | Resource Storage I | 50 Building | Allows production buildings within 50m to draw materials directly from it. NPCs can access it from any distance on the map |
 | Hunting Lodge I | 50 Survival | Drying rack for preserving meat. Critical before winter |
 | Woodshed I | 100 Building | Only needed if you require planks — Tier 1 buildings use logs, sticks and straw only |

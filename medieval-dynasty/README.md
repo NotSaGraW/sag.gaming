@@ -21,28 +21,49 @@ Practical guide for Medieval Dynasty on the Oxbow map. Written for normal diffic
 
 ## Contents
 
+**Part 1 — Player Survival**
 - [Starting Out](#starting-out)
 - [Survival Basics](#survival-basics)
 - [Food](#food)
 - [Water](#water)
+
+**Part 2 — Settlement Foundation**
+- [First Buildings](#first-buildings)
+- [Storage](#storage)
 - [Resources and Mining](#resources-and-mining)
-- [Crafting and Production](#crafting-and-production)
-- [Buildings and Construction](#buildings-and-construction)
-- [Villagers and Settlement Management](#villagers-and-settlement-management)
-- [Farming](#farming)
-- [Farm Animals](#farm-animals)
+- [Crafting Basics](#crafting-basics)
+
+**Part 3 — Settlement Management**
+- [People](#people)
+- [Buildings](#buildings)
+- [Crops](#crops)
+- [Animals](#animals)
+- [Demand Control](#demand-control)
+- [Economy](#economy)
+
+**Part 4 — External Systems**
 - [Combat and Bandits](#combat-and-bandits)
-- [Economy and Trade](#economy-and-trade)
 - [The King and the Herald](#the-king-and-the-herald)
-- [Quick Reference](#quick-reference)
+
+**[Quick Reference](#quick-reference)**
+
+**Knowledge**
+- [Technology](#technology)
+- [Smithy](#smithy)
+- [Working Clothes](#working-clothes)
+- [Building Sizes](#building-sizes)
+- [King Titles](#king-titles)
+- [Co-op](#co-op)
 
 > Items marked ⚠️ are pending in-game verification.
 
 ---
 
+# Part 1 — Player Survival
+
 ## Starting Out
 
-The game eases you in. You wake up in **Sedowin's house** — bed, fire, and shelter from day one. Your first tasks are talking to **Mirogod** and **Derwan**, which unlocks building permissions in the area.
+The game eases you in. You wake up in **Sedowin's infirmary** — 4 beds, a fireplace for cooking, and a chest outside with 50kg of storage. It works as a temporary base while you get started. Your first tasks are talking to **Mirogod** and **Derwan**, which unlocks building permissions in the area.
 
 Once the intro quests are done, a **starting chest** near Sedowin contains a bow, copper arrows, and other items ⚠️ *exact contents pending verification*. The **infirmary attic** also has items you can take.
 
@@ -52,7 +73,7 @@ Once the intro quests are done, a **starting chest** near Sedowin contains a bow
 
 ## Survival Basics
 
-Year 1 is the hardest part of the game. Without infrastructure — shelter, food sources, tools — every parameter is a threat. Once you have the basics covered, the game becomes progressively easier as production takes over. This section is the knowledge that replaces that missing infrastructure.
+Year 1 is the hardest part of the game. Without infrastructure — shelter, food sources, tools — every parameter is a threat. Once the basics are covered, the game becomes progressively easier as production takes over. This section is the knowledge that replaces that missing infrastructure.
 
 Five parameters to keep in balance:
 
@@ -91,7 +112,7 @@ The **Simple Small House includes a built-in fireplace** — once built, you hav
 
 For fuel, the game uses whatever is available in this order: **firewood → sticks → logs → planks**. Firewood cannot be hand-crafted — it requires a Woodshed. Sticks and logs work as direct fuel and are available from the start.
 
-For NPCs, fuel is consumed automatically from the **Resource Storage**. Without one, place fuel directly in the NPC's house chest. The Demand Control tab lets you restrict which fuel types NPCs can use — without this, they may burn your construction logs and planks.
+For NPCs, fuel is consumed automatically from the **Resource Storage**. Without one, place fuel directly in the NPC's house chest.
 
 ### Dirt
 If the character is dirty, there is a chance of being poisoned by **any food** — not just raw meat. Washing in a river or lake removes dirt.
@@ -168,8 +189,6 @@ Boars charge in a straight line — sidestep to avoid. They yield 21 meat and 5 
 | Regular chest | -25% |
 | Food Storage | -12.5% |
 
-**Early money tip:** buy Pike from a food vendor, roast it at a campfire, sell the roasted fish meat back to the same vendor for a profit.
-
 ---
 
 ## Water
@@ -177,6 +196,57 @@ Boars charge in a straight line — sidestep to avoid. They yield 21 meat and 5 
 - Drink directly from **rivers or lakes** — approach the water, crouch if needed, hold E.
 - Ripe berries give +2 water — combined food and water source.
 - **Waterskin** — allows carrying water. Crafted at the Sewing Hut. ⚠️ *recipe and tech points pending*
+
+---
+
+# Part 2 — Settlement Foundation
+
+## First Buildings
+
+Building everything as fast as possible is a trap — most buildings only make sense once you have NPCs, blueprints, or specific materials. These are the ones that provide real value early:
+
+| Building | Tech points | Why it matters |
+|---|---|---|
+| Simple Small Wattle House | 0 | First shelter. Includes Stone Campfire for cooking. Requires only sticks, logs, stone and straw — no planks |
+| Food Storage I | 5 Farming | 500kg capacity. The Hunting Lodge I chest only holds 50kg — build this early if you plan to store significant amounts of food |
+| Resource Storage I | 50 Building | Allows production buildings within 50m to draw materials directly from it. NPCs can access it from any distance on the map |
+| Hunting Lodge I | 50 Survival | Workbench and Drying Rack for crafting and preserving meat. Critical before winter |
+| Woodshed I | 100 Building | Only needed if you require planks — Tier 1 buildings use logs, sticks and straw only |
+
+> **How to get Farming tech points early:** craft a Wooden Hoe (1 log + 5 sticks, hand-craftable), place a small field from the Q menu, and use the hoe on one or two plots. 5 points takes only a few minutes and unlocks Food Storage I. ⚠️ *pending verification — confirm that grubbing an empty field without seeds or fertiliser generates Farming tech points*
+
+**Buildings that need preparation:**
+
+- **Kitchen I** (25 Production tech) — Stone Grate, Cauldron and Oven for roasting, soups and baking.
+- **Fishing Hut I** (500 Survival tech) — requires a fishing spear not craftable at the lodge.
+- **Smithy I** (50 Production tech) — smelts ore into bars and crafts tools and weapons. All recipes require purchasing a scheme. Best early profit: Bronze Knife (1 stick + 1 bronze bar → 300 coins).
+
+Tier 1 buildings only require logs, sticks and straw — no planks needed. Planks only appear in Tier 2 construction onward.
+
+---
+
+## Storage
+
+| Building | Tech points | Capacity |
+|---|---|---|
+| Resource Storage I | 50 Building | 1,000 kg |
+| Resource Storage II | 1,000 Building | 2,000 kg |
+| Resource Storage III | 10,000 Building | 4,000 kg |
+| Food Storage I | 5 Farming | 500 kg |
+| Food Storage II | 1,000 Farming | 1,000 kg |
+| Food Storage III | 6,500 Farming | 2,000 kg |
+
+Both storage types share a single combined inventory regardless of how many buildings of that type you have or where they are on the map.
+
+**How the storage system works:**
+- Production buildings within range can draw materials directly from the Resource Storage — the player does not need to carry them
+- NPCs can access both storages from **any distance** on the map, with no range limit — once either storage exists
+- Building chests are separate and do not connect to the storage system
+- Player Remote Storage range: 50m (Tier I), 75m (Tier II), 100m (Tier III)
+
+**Before building either storage,** manage items manually:
+- Food, water and firewood → the **NPC's house chest**
+- Work tools → the **production building's chest**
 
 ---
 
@@ -201,52 +271,12 @@ Smelting is always worth it — 2 Copper Ore (7×2 = 14) → Copper Bar (28). 2 
 |---|---|---|---|
 | Copper Ore | 7 | Mine in caves with a pickaxe, or Excavation Shed (also produces Stone, Straw, Limestone and Clay) | Basic pickaxe |
 | Tin Ore | 8 | Mine in caves with a pickaxe | Basic pickaxe |
-| Iron Ore | — | Skauki mine (day 1) or Mine building at a cave entrance | Pickaxe / High Building tech |
+| Iron Ore | 17 | Skauki mine (day 1) or Mine building at a cave entrance | Pickaxe / High Building tech |
 | Salt | 7 | Mine in caves | Basic pickaxe |
 
 Mine resources respawn every season.
 
-**Anvil — Copper tools (50 Production tech):**
-
-| Item | Scheme | Resources | Sale price |
-|---|---|---|---|
-| Copper Axe | ⚠️ | 1 log + 4 copper bars | 220 |
-| Copper Knife | 150 | 1 stick + 2 copper bars | 110 |
-| Copper Sickle | ⚠️ | 1 log + 2 copper bars | 120 |
-| Copper Hoe | ⚠️ | 1 log + 2 copper bars | 110 |
-| Copper Hammer | 100 | 2 copper bars + 1 log | 110 |
-| Copper Shovel | 100 | 2 logs + 4 copper bars | 220 |
-
-**Anvil — Bronze tools (500 Production tech):**
-
-| Item | Scheme | Resources | Sale price |
-|---|---|---|---|
-| Bronze Axe | ⚠️ | 1 log + 2 bronze bars | 590 |
-| Bronze Pickaxe | ⚠️ | 1 log + 2 bronze bars | 590 |
-| Bronze Knife | ⚠️ | 1 stick + 1 bronze bar | 300 |
-| Bronze Scythe | ⚠️ | 1 stick + 1 log + 2 bronze bars | 590 |
-| Bronze Hoe | ⚠️ | 1 log + 2 bronze bars | 290 |
-| Bronze Hammer | 200 | 1 bronze bar + 1 stick | 290 |
-| Bronze Shovel | 200 | 1 log + 2 bronze bars | 590 |
-| Bronze Sickle | 250 | 1 log + 1 bronze bar | 200 |
-| Bronze Shearing Scissors (x2) | 200 | 1 bronze bar | 150 |
-
-**Anvil — Iron tools (5,000 Production tech):**
-
-| Item | Scheme | Resources | Sale price |
-|---|---|---|---|
-| Iron Axe | ⚠️ | 1 log + 4 iron bars | 880 |
-| Iron Pickaxe | ⚠️ | 1 log + 4 iron bars | 880 |
-| Iron Knife | ⚠️ | 1 stick + 2 iron bars | 440 |
-| Iron Sickle | ⚠️ | 1 log + 2 iron bars | 440 |
-| Iron Hoe | ⚠️ | 1 log + 2 iron bars | 440 |
-| Iron Scythe | ⚠️ | 1 stick + 1 log + 4 iron bars | 880 |
-| Iron Hammer | ⚠️ | 2 iron bars + 1 stick | 400 |
-| Iron Shovel | ⚠️ | 1 log + 2 iron bars | 800 |
-| Iron Shearing Scissors | ⚠️ | 1 iron bar | 210 |
-| Iron Horseshoes | ⚠️ | 2 iron bars | 440 |
-
-> \* Sale prices reflect base value only — material gathering time not included. Bronze Knife (1 stick + 1 bronze bar) offers the best material-to-value ratio: sticks are free from the ground, and 1 bronze bar converts ~30 coins of ore into 300.
+> Smelting is always worth it — Copper Ore (7×2=14) → Copper Bar (28). Tin Ore (8×2=16) → Tin Bar (35). Iron Ore (17×2=34) → Iron Bar (90). Bronze Bar (140) from bars worth 63 combined. Sell bars, not ore.
 
 ### Trees
 
@@ -265,7 +295,14 @@ Mine resources respawn every season.
 
 ---
 
-## Crafting and Production
+## Crafting Basics
+
+### Hand-Craftable Items (no building, no scheme)
+- **Wooden Spear** — 1 log
+- **Stone Knife** — 5 sticks + 2 stones
+- **Stone Sickle**
+
+Firewood cannot be hand-crafted — it requires a Woodshed.
 
 ### Manual vs NPC Production
 
@@ -281,159 +318,22 @@ Mine resources respawn every season.
 
 > If the building chest has no tool, the NPC produces nothing — even if you have that tool on you.
 
-### Hand-Craftable Items (no building, no scheme)
-- **Wooden Spear** — 1 log
-- **Stone Knife** — 5 sticks + 2 stones
-- **Stone Sickle**
-
-Note: Firewood cannot be hand-crafted since version 2.1.1.0.
-
-### Tech Points and Schemes
+### Tech Points
 
 Tech points accumulate by doing activities (building, crafting, farming, hunting). There are four independent trees: **Building, Survival, Farming** and **Production**.
 
 - **Buildings** unlock automatically when you reach the required tech threshold — no additional cost.
 - **Schemes** must be purchased with coins from the **Technology tab** once the threshold is met. They are not sold by merchants.
 
-**Building tech:**
-
-| Building | Tech points |
-|---|---|
-| Resource Storage I | 50 |
-| Woodshed I | 100 |
-| Simple House | 250 |
-| Excavation Shed | 500 |
-| Resource Storage II | 1,000 |
-| House | 1,500 |
-| Woodshed II | 2,500 |
-| Mine | 5,000 |
-| Builder's Hut | 7,500 |
-| Resource Storage III | 10,000 |
-
-**Survival tech:**
-
-| Building | Tech points |
-|---|---|
-| Hunting Lodge I | 50 |
-| Herbalist's Hut I | 250 |
-| Fishing Hut I | 500 |
-| Hunting Lodge II | 1,000 |
-| Herbalist's Hut II | 1,500 |
-
-**Production tech — Smithy I unlocks at 50. All tools within each tier are available without scheme unless marked:**
-
-| Tier | Tech points | Items requiring scheme |
-|---|---|---|
-| Copper | 50 | Copper Knife (150), Copper Hammer (100), Copper Shovel (100) |
-| Bronze | 500 | Bronze Hammer (200), Bronze Shovel (200), Bronze Sickle (250), Bronze Shearing Scissors (200) |
-| Iron | 5,000 | None confirmed |
-
-### Working Clothes
-
-A complete set reduces crafting time by **80%** at the corresponding workstations. A single piece provides no bonus — the full set is required.
-
-| Set | Workstations |
-|---|---|
-| **Blacksmith** (Apron, Boots, Coif, Gloves, Trousers) | Anvil, Forge, Workbench (Smithy only) |
-| **Cook** (Apron, Hat, Shoes, Trousers) | Oven, Cauldron, Stone Grate, Fireplace, Campfire |
-| **Seamster** (Doublet, Hat, Hose, Shoes) | Spinning Wheel, Tailoring Table, Loom |
-
-Unlocked in the Production tech tree. Crafted at the Sewing Hut or purchased from clothing vendors.
+See [Technology](#technology) in Knowledge for full tables by tree.
 
 > Equipping a two-handed tool (axe, scythe) removes the pickup animation for sticks, stones and berries — faster foraging.
 
 ---
 
-## Buildings and Construction
+# Part 3 — Settlement Management
 
-- Buildings unlock automatically at the required tech threshold — no additional cost.
-- Placed but unbuilt blueprints **already generate taxes**.
-- Buildings without a completed foundation **do not pay taxes**.
-- Buildings and furniture can be **moved** with the hammer in Move Mode at no additional resource cost.
-- All Customise Game settings can be changed **at any time**, including in long-running saves.
-
-### First Buildings
-
-Building everything as fast as possible is a trap — most buildings only make sense once you have NPCs, blueprints, or specific materials you won't have in year 1. These are the ones that provide real value early:
-
-| Building | Tech points | Why it matters |
-|---|---|---|
-| Food Storage I | 5 Farming | 500kg capacity. The Hunting Lodge I chest only holds 50kg — build this early if you plan to store significant amounts of food |
-| Resource Storage I | 50 Building | Allows production buildings within 50m to draw materials directly from it. NPCs can access it from any distance on the map |
-| Hunting Lodge I | 50 Survival | Workbench and Drying Rack for crafting and preserving meat. Critical before winter |
-| Woodshed I | 100 Building | Only needed if you require planks — Tier 1 buildings use logs, sticks and straw only |
-
-> **How to get Farming tech points early:** craft a Wooden Hoe (1 log + 5 sticks, hand-craftable), place a small field from the Q menu, and use the hoe on one or two plots. 5 points takes only a few minutes and unlocks Food Storage I. ⚠️ *pending verification — confirm that grubbing an empty field without seeds or fertiliser generates Farming tech points*
-
-**Buildings that need preparation:**
-
-- **Kitchen I** (25 Production tech) — Stone Grate, Cauldron and Oven for roasting, soups and baking.
-- **Fishing Hut I** (500 Survival tech) — requires a fishing spear not craftable at the lodge.
-- **Smithy I** (50 Production tech) — smelts ore into bars and crafts tools and weapons. All recipes require purchasing a scheme. Best early profit: Bronze Knife (1 stick + 1 bronze bar → 300 coins).*
-
-Tier 1 buildings only require logs, sticks and straw — no planks needed. Planks only appear in Tier 2 construction onward.
-
-### Storage
-
-| Building | Tech points | Capacity |
-|---|---|---|
-| Resource Storage I | 50 Building | 1,000 kg |
-| Resource Storage II | 1,000 Building | 2,000 kg |
-| Resource Storage III | 10,000 Building | 4,000 kg |
-| Food Storage I | 5 Farming | 500 kg |
-| Food Storage II | 1,000 Farming | 1,000 kg |
-| Food Storage III | 6,500 Farming | 2,000 kg |
-
-Both storage types share a single combined inventory regardless of how many buildings of that type you have or where they are on the map.
-
-**How the storage system works:**
-- Production buildings within range can draw materials directly from the Resource Storage — the player does not need to carry them
-- NPCs can access both storages from **any distance** on the map, with no range limit — once either storage exists
-- Building chests are separate and do not connect to the storage system. They serve as overflow when the storage is full
-- Player Remote Storage range: 50m (Tier I), 75m (Tier II), 100m (Tier III)
-
-**Before building either storage,** manage items manually:
-- Food, water and firewood → the **NPC's house chest**
-- Work tools → the **production building's chest**
-
-**Demand Control tab** — disable everything by default, then enable only what you want NPCs to consume. Without this, they may burn your logs and planks as firewood.
-
-### The 70m Rule
-- Farm workers lose efficiency if the Farm Shed is more than 70m from the field.
-- Do not build within 70m of an animal spawn point. This includes roads, platforms and fences. Furniture and decorations do not block spawns.
-
-### Building Sizes
-Measurements in field plots. Mine and Fishing Hut have no fixed size — Mine can only be placed at cave mouths with ore deposits, Fishing Hut in water.
-
-**Housing**
-
-| Building | Size |
-|---|---|
-| Simple Small House | 5×5 |
-| Simple House | 5×7 |
-| House | 7×7 |
-
-**Production and services**
-
-| Building | Size | Building | Size |
-|---|---|---|---|
-| Apiary | 3×4 | Market Stall | 3×3 |
-| Barn | 5×6 | Pigsty | 4×4 |
-| Builder's Hut | 3×4 | Resource Storage | 7×7 |
-| Cowshed | 5×5 | Sewing Hut | 3×5 |
-| Donkey Shelter | 5×5 | Smithy | 4×4 |
-| Excavation Shed | 3×4 | Stable | 6×6 |
-| Farm Shed | 3×3 | Tavern | 7×8 |
-| Fold | 4×4 | Well | 3×3 |
-| Food Storage | 5×5 | Windmill | 4×5 |
-| Goose House | 3×4 | Woodshed | 4×4 |
-| Henhouse | 3×4 | Workshop | 5×5 |
-| Herbalist's Hut | 4×4 | Kitchen | 3×5 |
-| Hunting Lodge | 4×5 | | |
-
----
-
-## Villagers and Settlement Management
+## People
 
 ### Recruiting
 Travellers sit around campfires near villages and can be recruited if you have enough Dynasty Reputation. Reputation is gained by completing quests.
@@ -496,7 +396,21 @@ If Mood reaches **-100%**, the villager permanently leaves the settlement and th
 
 ---
 
-## Farming
+## Buildings
+
+- Buildings unlock automatically at the required tech threshold — no additional cost.
+- Placed but unbuilt blueprints **already generate taxes**.
+- Buildings without a completed foundation **do not pay taxes**.
+- Buildings and furniture can be **moved** with the hammer in Move Mode at no additional resource cost.
+- All Customise Game settings can be changed **at any time**, including in long-running saves.
+
+### The 70m Rule
+- Farm workers lose efficiency if the Farm Shed is more than 70m from the field.
+- Do not build within 70m of an animal spawn point. This includes roads, platforms and fences. Furniture and decorations do not block spawns.
+
+---
+
+## Crops
 
 ### Setup
 1. Provide tools to the Farm Shed: Simple Bags/Bags for fertilising, Hoes for ploughing, Sickles/Scythes for harvesting.
@@ -547,7 +461,7 @@ If Mood reaches **-100%**, the villager permanently leaves the settlement and th
 
 ---
 
-## Farm Animals
+## Animals
 
 | Building | Animal | Worker produces | Tool needed | Where to buy (Oxbow) |
 |---|---|---|---|---|
@@ -581,29 +495,17 @@ Manure on the floor, eggs in nests and manual milking/shearing are **player-only
 
 ---
 
-## Combat and Bandits
+## Demand Control
 
-Bandits **do not attack your settlement** — they stay near their camps. Camps are random each 1–2 seasons, except for one **permanent camp in the northeast of the Oxbow** — bandits there respawn but loot does not.
+The **People's Demand Control** tab in Management controls what NPCs consume from storage. It covers three categories: Food (64 items), Water (36 items) and Wood (4 items).
 
-**Shields** are equipped from the **torch slot** by holding **F** — not a secondary weapon slot. The most basic option is the Wooden Round Shield. ⚠️ *tech points required pending verification*
+**Wood consumption order (priority 1→4):** Firewood → Stick → Log → Plank
 
-### Loot
-
-There are three types of loot containers on the map, each behaving differently:
-
-**Fixed containers** — chests inside specific abandoned buildings (such as those southeast of Piastovia). Contain valuable items including spears, poisoned arrows, coins and occasionally high-durability weapons. Many items are hidden — search thoroughly. Once looted, they never refill.
-
-**Random containers** — barrels, broken carts, sacks and chests that appear along roads and riverbanks. These respawn at season change at randomised locations across the map, with new contents each time. The same spot may not respawn for 2–6 seasons.
-
-**Lost Places and ruins** — abandoned structures scattered across the map, not marked on the map. May contain bandits or wolves. Bandits sometimes partially restock chests with lower-value items between visits.
-
-**Village house chests** — contain valuable items and sometimes coins. Taking them without permission is theft and reduces Dynasty Reputation proportionally to the item's value.
-
-> Skauki has a mine with iron accessible from day one — no Mine building required.
+Disable everything by default, then enable only what you want NPCs to consume. Without this, NPCs will burn construction logs and planks as fuel.
 
 ---
 
-## Economy and Trade
+## Economy
 
 ### Pricing
 - You sell at **50% of base value** and buy at **150% of base value**.
@@ -638,11 +540,250 @@ Simple or Fine Hoods · Bronze Shearing Scissors · Horseshoes · Poisoned bronz
 
 ---
 
+# Part 4 — External Systems
+
+## Combat and Bandits
+
+Bandits **do not attack your settlement** — they stay near their camps. Camps are random each 1–2 seasons, except for one **permanent camp in the northeast of the Oxbow** — bandits there respawn but loot does not.
+
+**Shields** are equipped from the **torch slot** by holding **F** — not a secondary weapon slot. The most basic option is the Wooden Round Shield. ⚠️ *tech points required pending verification*
+
+### Loot
+
+There are three types of loot containers on the map, each behaving differently:
+
+**Fixed containers** — chests inside specific abandoned buildings (such as those southeast of Piastovia). Contain valuable items including spears, poisoned arrows, coins and occasionally high-durability weapons. Many items are hidden — search thoroughly. Once looted, they never refill.
+
+**Random containers** — barrels, broken carts, sacks and chests that appear along roads and riverbanks. These respawn at season change at randomised locations across the map, with new contents each time. The same spot may not respawn for 2–6 seasons.
+
+**Lost Places and ruins** — abandoned structures scattered across the map, not marked on the map. May contain bandits or wolves. Bandits sometimes partially restock chests with lower-value items between visits.
+
+**Village house chests** — contain valuable items and sometimes coins. Taking them without permission is theft and reduces Dynasty Reputation proportionally to the item's value.
+
+---
+
 ## The King and the Herald
 
-The King's opinion affects both your **taxes** and your **villagers' mood**. There are three King types — Good, Neutral and Bad — identifiable by his title. A Bad King with a good opinion of you **lowers** villager mood.
+The King's opinion affects both your **taxes** and your **villagers' mood**. There are three King types — Good, Neutral and Bad — identifiable by his title. A Bad King with a good opinion of you **lowers** villager mood. See [King Titles](#king-titles) in Knowledge to identify your king's type.
 
-**King types by title:**
+Ignoring Herald quests drops opinion to Neutral at most. **Failing** them can drop it further. You have **5 seasons** to complete a Challenge — speak to the Herald as early in the season as possible. The Herald can appear in any Tavern on the map, including ones you build. The probability of his appearance increases by **25% each season** he does not visit.
+
+**Reputation-locked progression:**
+- Village name: **Very Good** opinion + 10,000 coins
+- Crest: **Excellent** opinion + 10,000 coins
+
+---
+
+## Quick Reference
+
+- Diagonal sprinting while overencumbered is faster than going straight.
+- Tree stumps regrow in 8 seasons unless removed with a shovel.
+- Inspector Mode (Alt) shows NPC names, ages and skill levels.
+- Searching the **Knowledge tab** finds recipes and information in-game.
+- Lost Places and ruins contain loot and bandits — not marked on the map.
+
+---
+
+# Knowledge
+
+## Gameplay Settings
+
+All settings are adjustable at any time, including in long-running saves. Season length changes apply from the next season onward.
+
+| Setting | Normal | Hard |
+|---|---|---|
+| Length of Season (Days) | 3 | 3 |
+| Taxes | 100% | 200% |
+| Buildings Limit | 100% | 100% |
+| Events | ✅ | ✅ |
+| Remote Storage Access | ✅ | ☐ |
+| Unlimited HP | ☐ | ☐ |
+| Unlimited Stamina | ☐ | ☐ |
+| Lack of Hunger | ☐ | ☐ |
+| Lack of Thirst | ☐ | ☐ |
+| Unlimited Carry Weight | ☐ | ☐ |
+| Inhabitants – Food Needs | 100% | 200% |
+| Inhabitants – Water Needs | 100% | 200% |
+| Inhabitants – Wood Needs | 100% | 200% |
+| Bandits – HP | 100% | 200% |
+| Bandits – Damage | 100% | 200% |
+| Animals – HP | 100% | 200% |
+| Animals – Damage | 100% | 200% |
+| Poisoning | ✅ | ✅ |
+| Temperature | ✅ | ✅ |
+| Fast Crafting | ☐ | ☐ |
+| Fast Building | ☐ | ☐ |
+| XP Gain Multiplier | 100% | 100% |
+| Technology Gain Multiplier | 100% | 100% |
+| Clothes and Armour Durability Loss | 100% | 100% |
+| Tools and Weapons Durability Loss | 100% | 100% |
+| Dynasty Reputation Gain Multiplier | 100% | 100% |
+| Stop Dropped Items from Spoiling | ☐ | ☐ |
+| Storage Interior | ✅ | ✅ |
+
+> On Hard, Remote Storage Access is disabled — the player must be within physical range of a storage building to access it. NPCs are unaffected.
+
+---
+
+## Technology
+
+Tech points accumulate by doing activities. There are four independent trees — Building, Survival, Farming and Production — each unlocking buildings and schemes independently.
+
+**Building tech:**
+
+| Building | Tech points |
+|---|---|
+| Resource Storage I | 50 |
+| Woodshed I | 100 |
+| Simple House | 250 |
+| Excavation Shed | 500 |
+| Resource Storage II | 1,000 |
+| House | 1,500 |
+| Woodshed II | 2,500 |
+| Mine | 5,000 |
+| Builder's Hut | 7,500 |
+| Resource Storage III | 10,000 |
+
+**Survival tech:**
+
+| Building | Tech points |
+|---|---|
+| Hunting Lodge I | 50 |
+| Herbalist's Hut I | 250 |
+| Fishing Hut I | 500 |
+| Hunting Lodge II | 1,000 |
+| Herbalist's Hut II | 1,500 |
+
+**Production tech:**
+
+| Tier | Tech points | Scheme costs (confirmed) |
+|---|---|---|
+| Copper (Smithy I) | 50 | Copper Knife (150), Copper Hammer (100), Copper Shovel (100). Others ⚠️ |
+| Bronze | 500 | Bronze Hammer (200), Bronze Shovel (200), Bronze Sickle (250), Bronze Shearing Scissors (200). Others ⚠️ |
+| Iron | 5,000 | All schemes ⚠️ |
+
+---
+
+## Smithy
+
+All Smithy recipes require purchasing a scheme from the Technology tab.
+
+**Forge — Smelting:**
+
+| Bar | Resources | Sale price |
+|---|---|---|
+| Copper Bar | 2 Copper Ore | 28 |
+| Tin Bar | 2 Tin Ore | 35 |
+| Bronze Bar | 1 Copper Bar + 1 Tin Bar | 140 |
+| Iron Bar | 2 Iron Ore | 90 |
+
+**Anvil — Copper tools (50 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Copper Axe | ⚠️ | 1 log + 4 copper bars | 220 |
+| Copper Knife | 150 | 1 stick + 2 copper bars | 110 |
+| Copper Sickle | ⚠️ | 1 log + 2 copper bars | 120 |
+| Copper Hoe | ⚠️ | 1 log + 2 copper bars | 110 |
+| Copper Hammer | 100 | 2 copper bars + 1 log | 110 |
+| Copper Shovel | 100 | 2 logs + 4 copper bars | 220 |
+
+**Anvil — Bronze tools (500 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Bronze Axe | ⚠️ | 1 log + 2 bronze bars | 590 |
+| Bronze Pickaxe | ⚠️ | 1 log + 2 bronze bars | 590 |
+| Bronze Knife | ⚠️ | 1 stick + 1 bronze bar | 300 |
+| Bronze Scythe | ⚠️ | 1 stick + 1 log + 2 bronze bars | 590 |
+| Bronze Hoe | ⚠️ | 1 log + 2 bronze bars | 290 |
+| Bronze Hammer | 200 | 1 bronze bar + 1 stick | 290 |
+| Bronze Shovel | 200 | 1 log + 2 bronze bars | 590 |
+| Bronze Sickle | 250 | 1 log + 1 bronze bar | 200 |
+| Bronze Shearing Scissors (x2) | 200 | 1 bronze bar | 150 |
+
+**Anvil — Iron tools (5,000 Production tech):**
+
+| Item | Scheme | Resources | Sale price |
+|---|---|---|---|
+| Iron Axe | ⚠️ | 1 log + 4 iron bars | 880 |
+| Iron Pickaxe | ⚠️ | 1 log + 4 iron bars | 880 |
+| Iron Knife | ⚠️ | 1 stick + 2 iron bars | 440 |
+| Iron Sickle | ⚠️ | 1 log + 2 iron bars | 440 |
+| Iron Hoe | ⚠️ | 1 log + 2 iron bars | 440 |
+| Iron Scythe | ⚠️ | 1 stick + 1 log + 4 iron bars | 880 |
+| Iron Hammer | ⚠️ | 2 iron bars + 1 stick | 400 |
+| Iron Shovel | ⚠️ | 1 log + 2 iron bars | 800 |
+| Iron Shearing Scissors | ⚠️ | 1 iron bar | 210 |
+| Iron Horseshoes | ⚠️ | 2 iron bars | 440 |
+
+> \* Sale prices reflect base value only — material gathering time not included. Bronze Knife (1 stick + 1 bronze bar) offers the best material-to-value ratio.
+
+---
+
+## Working Clothes
+
+A complete set reduces crafting time by **80%** at the corresponding workstations. A single piece provides no bonus — the full set is required.
+
+| Set | Workstations |
+|---|---|
+| **Blacksmith** (Apron, Boots, Coif, Gloves, Trousers) | Anvil, Forge, Workbench (Smithy only) |
+| **Cook** (Apron, Hat, Shoes, Trousers) | Oven, Cauldron, Stone Grate, Fireplace, Campfire |
+| **Seamster** (Doublet, Hat, Hose, Shoes) | Spinning Wheel, Tailoring Table, Loom |
+
+Unlocked in the Production tech tree. Crafted at the Sewing Hut or purchased from clothing vendors.
+
+---
+
+## Building Sizes
+
+Measurements in field plots. Mine and Fishing Hut have no fixed size — Mine can only be placed at cave mouths with ore deposits, Fishing Hut in water.
+
+**Housing — construction materials**
+
+| House | Material | Sticks | Logs | Planks | Stone | Straw |
+|---|---|---|---|---|---|---|
+| Simple Small | Wattle | 66 | 25 | — | 10 | 32 |
+| Simple Small | Wooden | — | 50 | 24 | 10 | — |
+| Simple Small | Stone | — | 27 | 48 | 76 | — |
+| Simple | Wattle | 80 | 32 | — | 12 | 48 |
+| Simple | Wooden | — | 63 | 36 | 12 | — |
+| Simple | Stone | — | 35 | 72 | 92 | — |
+| House | Wattle | 106 | 34 | — | 14 | 60 |
+| House | Wooden | — | 71 | 48 | 14 | — |
+| House | Stone | — | 38 | 80 | 108 | — |
+
+All houses include a **Stone Campfire** for cooking. Wattle variants require no planks — Wooden and Stone require a Woodshed.
+
+**Housing — footprint**
+
+| Building | Size |
+|---|---|
+| Simple Small House | 5×5 |
+| Simple House | 5×7 |
+| House | 7×7 |
+
+**Production and services**
+
+| Building | Size | Building | Size |
+|---|---|---|---|
+| Apiary | 3×4 | Market Stall | 3×3 |
+| Barn | 5×6 | Pigsty | 4×4 |
+| Builder's Hut | 3×4 | Resource Storage | 7×7 |
+| Cowshed | 5×5 | Sewing Hut | 3×5 |
+| Donkey Shelter | 5×5 | Smithy | 4×4 |
+| Excavation Shed | 3×4 | Stable | 6×6 |
+| Farm Shed | 3×3 | Tavern | 7×8 |
+| Fold | 4×4 | Well | 3×3 |
+| Food Storage | 5×5 | Windmill | 4×5 |
+| Goose House | 3×4 | Woodshed | 4×4 |
+| Henhouse | 3×4 | Workshop | 5×5 |
+| Herbalist's Hut | 4×4 | Kitchen | 3×5 |
+| Hunting Lodge | 4×5 | | |
+
+---
+
+## King Titles
 
 | Good Kings | Neutral Kings | Bad Kings |
 |---|---|---|
@@ -656,30 +797,12 @@ The King's opinion affects both your **taxes** and your **villagers' mood**. The
 | The Merciful | The Strong | The Warlike |
 | The Wise | | |
 
-Ignoring Herald quests drops opinion to Neutral at most. **Failing** them can drop it further. You have **5 seasons** to complete a Challenge — speak to the Herald as early in the season as possible. The Herald can appear in any Tavern on the map, including ones you build. The probability of his appearance increases by **25% each season** he does not visit.
-
-**Reputation-locked progression:**
-- Village name: **Very Good** opinion + 10,000 coins
-- Crest: **Excellent** opinion + 10,000 coins
-
 ---
 
-## Quick Reference
-
-**Useful interactions:**
-- Diagonal sprinting while overencumbered is faster than going straight.
-- Tree stumps regrow in 8 seasons unless removed with a shovel.
-- Inspector Mode (Alt) shows NPC names, ages and skill levels.
-- Searching the **Knowledge tab** finds recipes and information in-game.
-- Lost Places and ruins contain loot and bandits — not marked on the map.
-
----
-
-## Appendix — Co-op
+## Co-op
 
 Each player has their own inventory and vital parameters — hunger and thirst are individual. Dead players cannot be revived by others — they respawn in their own house. Season change tech points and Dynasty Reputation are shared.
 
-Recommendations:
 - Split roles across tech trees to avoid all players unlocking the same things.
 - Only the **host** can edit the crest.
 - Generic quests are not assigned to client families if clients are connected during season change.

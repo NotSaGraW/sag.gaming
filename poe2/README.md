@@ -23,6 +23,9 @@
 
 - [What Drops, Build Value and How to Use It](#what-drops-build-value-and-how-to-use-it)
 - [Atlas Node Priority](#atlas-node-priority)
+- [Atlas Masters](#atlas-masters)
+- [Biomes](#biomes)
+- [Tablets](#tablets)
 
 **Part III — Gear Priorities**
 
@@ -30,7 +33,11 @@
 - [Priorities](#priorities)
 - [Crafting by Slot](#crafting-by-slot)
 
-> Items marked ⚠️ have limited live validation or come from a single source.
+**Part IV — Early Endgame (historical record)**
+
+- [Fortress Questline Path](#fortress-questline-path)
+
+> Items marked ⚠️ are diffuse, single-source, or inconclusive despite multiple reports. Everything else carries the normal reliability of a game guide.
 
 ---
 
@@ -42,9 +49,9 @@ A rare item has 6 mods maximum: 3 prefixes and 3 suffixes. Prefixes and suffixes
 
 Each item can hold **1 crafted mod + 1 desecrated mod** maximum. Essences, Perfect Essences and Imbued Alloys all share the same crafted slot. Chaining is not possible.
 
-At T15-16, use **Perfect** Exalted/Regal/Chaos when available — they floor at mod level 50, cutting the lowest garbage tiers from the pool.
+At T15-16, use **Perfect** Exalted/Regal/Chaos when available — they floor at mod level 50, cutting the lowest tiers from the pool.
 
-Before any expensive craft: open **PoE2DB** (poe2db.tw), look up the base, check which tags the mods you need carry and at what ilvl T1 unlocks.
+Before any expensive craft: open **PoE2DB** (poe2db.tw), look up the base, check which tags the mods you need carry and at what ilvl T1 unlocks. There is no in-game modifier browser, so PoE2DB is mandatory while crafting.
 
 ---
 
@@ -89,7 +96,7 @@ Activate automatically with the next currency used.
 | Omen of Sinistral Annulment | Annulment removes a Prefix | Good suffixes, bad prefix to remove |
 | Omen of Dextral Annulment | Annulment removes a Suffix | Good prefixes, bad suffix to remove |
 | Omen of Light | Annulment removes only the Desecrated mod | Retry Desecration without touching the rest |
-| Omen of Abyssal Echoes | Rerolls all 3 Desecration options | None of the 3 options are useful |
+| Omen of Abyssal Echoes | Rerolls the 3 Desecration options | None of the 3 options are useful |
 | Omen of Sinistral Necromancy | Desecration reveal targets Prefixes only | Force desecrated mod onto a prefix |
 | Omen of Dextral Necromancy | Desecration reveal targets Suffixes only | Force desecrated mod onto a suffix |
 
@@ -99,15 +106,21 @@ Activate automatically with the next currency used.
 
 ## Desecration
 
-Abyssal Bones add a hidden mod revealed at an Abyssal Well inside Abyss encounters in maps. Maximum 1 Desecrated mod per item.
+Abyssal Bones add a hidden mod, revealed at the Well of Souls (Mastodon Badlands, Act 2 — or via the Well inside Abyss encounters in maps). Maximum 1 Desecrated mod per item. Desecration is the only system in the game that can add mods outside an item's natural pool.
 
-| Bone | Mod level floor | Use |
+Bones are type-specific: Jawbone (weapons), Rib (armour), Collarbone (accessories), Cranium (jewels).
+
+| Bone quality | Mod level floor | Use |
 |---|---|---|
-| Preserved Bone | None | Any slot, any ilvl |
-| Ancient Bone | ≥ 40 | Mid to high quality mods |
-| Gnawed Bone | Cap at 64 | Cannot reach T1 on mods gated above 64 |
+| Gnawed | Cap at 64 | Campaign-tier gear only — cannot be used on high ilvl map items |
+| Preserved | None | Any slot, any ilvl |
+| Ancient | ≥ 40 | Targeted high-end crafts. Drops only from Abyss chests, not monsters |
 
-**Retry loop:** Omen of Light + Annulment removes only the Desecrated mod, leaving the rest intact.
+If the item has 6 mods, the Bone removes a random mod of the matching affix type before adding the Desecrated one. With an open slot, it adds without removing.
+
+**Retry loop:** Omen of Light + Annulment removes only the Desecrated mod, leaving the rest intact. Omen of Abyssal Echoes rerolls the 3 revealed options.
+
+**Faction-specific mods** (revealed at the Well of Souls): Amanamu (defensive — shields/body armour), Ulaman (offensive — weapons/jewellery crit/elemental), Kurgal (ailments — poison/bleed/ignite). Bias the pool with the matching faction Omen.
 
 ---
 
@@ -117,11 +130,13 @@ Lock a mod permanently — nothing can remove it afterwards. Use when you have T
 
 **Priority targets:** +Minion Skill Levels (suffix) on sceptre · T1 ES (prefix) on body armour.
 
+Source: Cleansed maps are the primary Fracturing Orb drop. Summoning Circles (slotted via tablets) also produce them.
+
 ---
 
 ## Runeforging
 
-Runes socket into items without occupying the crafted slot. Materials — Runic Alloys and Verisium — come from Expedition. Apply after crafting is complete.
+Runes socket into items without occupying the crafted slot. Materials — Runic Alloys and Verisium — come from Expedition. Apply after crafting is complete. Socketed Jewels are now preserved when Runeforging an item.
 
 ---
 
@@ -135,6 +150,7 @@ Runes socket into items without occupying the crafted slot. Materials — Runic 
    → If one side is full: Annulment Omen to open a slot first
 4. Desecration
    → Necromancy Omen to target prefix or suffix side
+   → Faction Omen to bias toward Amanamu/Ulaman/Kurgal pool
    → Abyssal Echoes if none of the 3 options are useful
    → Omen of Light + Annulment to remove and retry
 5. Divine → only when all mods are correct but values are low
@@ -153,30 +169,69 @@ In SSF, Atlas investment decisions are driven by what you need to craft, not by 
 
 | League | What it drops | Build value | How to use it |
 |---|---|---|---|
-| **Abyss** | Abyssal Bones, Exalted Orbs (~5 per clear), raw currency, Abyss Strongboxes | Bones are the primary Desecration material. Exalts are crafting consumables | Run Abyss tablets with the extra Abyss mod. Invest Atlas nodes starting from "From Below" → "Dark Depths" ⚠️ node names unverified for 0.5 reworked Atlas |
-| **Ritual** | Fracturing Orbs, Omens, uniques | Fracturing Orbs lock T1 ES or +Minion Skill Levels. Omens of Annulment and Exaltation enable directed crafting. Post-0.5.2 Queen's Ritual Favours include 10 extra Omens | Farm 3 altars per map before advancing. Node "Bring Forth the Unseen" enables Summoning Circles — summoned bosses in the Ritual chain can drop multiple Fracturing Orbs per map |
-| **Breach** | Hiveblood, rings with additional minion projectiles, Catalysts | Rings with the additional minion projectile mod are the single largest ranged upgrade available — Snipers, Arsonists and Frost Mages all benefit. ⚠️ ~1,458 Hiveblood = guaranteed ilvl 84 base via Wombgift in Genesis Tree | Complete Origins of the Fortress to unlock the Genesis Tree. Catalysts are only available through the Genesis Tree in 0.5 |
-| **Delirium** | Divine Orbs, Perfect Exalted Orbs, Liquid Emotions, Megalomaniac Jewels | Divines reroll values on completed gear. Liquid Emotions are endgame jewel crafting material. Megalomaniac Jewels with minion damage notable combinations can be significant | Engage once the build sustains full fog coverage at T15 comfortably |
-| **Expedition** | Runic Alloys, Verisium | Runeforging materials — add mods to items without consuming the crafted slot | Apply Runeforging after all other crafting is done |
-| **Trial of Chaos** | Soul Core (Xipocado), raw currency | Soul Core of Dominion: 40% increased Damage with Command Skills on sceptre/wand/staff — applies directly to Deception and Brutality. Limited to 1 per character | Requires Inscribed Ultimatum ≥ level 65. Socket into the main sceptre immediately |
+| **Abyss** | Abyssal Bones (incl. Ancient from chests), Exalted Orbs, Omens, Heart of the Well jewels, raw currency | Only source of Bones — the entire Desecration system runs on Abyss. Accessible on any build that can clear the map | Slot Abyss tablets with "additional Abyss". Pull Amanamu rares out of the darkness before killing for upgraded Omen drops. Enter every Abyssal Depths/Dark Domain that opens |
+| **Ritual** | Omens, uniques, Ritual-only idols | Omens of Annulment, Exaltation and Necromancy enable directed crafting. Deferral system lets you bank items and lower their cost each map | Farm altars per map before advancing. With reduced deferment cost you can defer expensive items at near-zero cost, working toward them over several maps |
+| **Breach** | Amulets/rings/belts with minion and caster mods, Breach rings, Catalysts, Hiveblood, Altered Collarbone | Rings with additional minion projectiles scale all ranged minions. Altered Collarbone adds otherworldly Breach mods without crafting from the Genesis Tree. ⚠️ ~1,458 Hiveblood = guaranteed ilvl 84 base via Wombgift | Complete Origins of the Fortress to unlock the Genesis Tree. Catalysts are only available through it. Take Shape the Change and Power in Rares first |
+| **Delirium** | Divine Orbs, Liquid Emotions, Megalomaniac Jewels, Simulacrum Splinters | Liquid Emotions are endgame jewel crafting material — in SSF you use them yourself. Megalomaniac Jewels with minion damage notables can be significant | Build must sustain full fog at T15. +4 Spread is mandatory on the Delirium tree or loot drops massively |
+| **Temple (Atziri's)** ⚠️ | Vaal currency, Vaal Orbs, Irradiated tablets, Soul Cores & Ancient Soul Cores (Core Destabilizer room), double corruption | Soul Cores for socketing. Double corruption for high-risk final-layer crafts | ⚠️ Temple is under rework in 0.5.3 — verify current rewards before investing heavily |
+| **Expedition** | Runic Alloys, Verisium, Fluxes, Masterwork Runes | Runeforging materials. Fluxes swap resistances on gear — useful in SSF for closing res gaps without replacing pieces. Masterwork Runes upgrade Greater Runes in a socket to Perfect | Apply Runeforging after all other crafting is done |
+| **Trial of Chaos** | Soul Core (Xipocado), Chaos Orbs, Adorned jewel (2% chance) | Soul Core of Dominion: 40% increased Damage with Command Skills on sceptre/wand/staff — applies directly to Deception and Brutality. Limited to 1 | Requires Inscribed Ultimatum ≥ level 65. Socket into the main sceptre immediately |
 
 ---
 
 ## Atlas Node Priority
 
 ```
-ABYSS:    "From Below" → "Dark Depths" → left side → "Lord of the Pit"  ⚠️
-          Produces: Abyssal Bones, Exalted Orbs, raw currency
+ABYSS:    "Lord of the Pit" (spreads fissures across the map) → "Abyss pits
+          scattered through areas" → Rogue Exile / Heart of the Well nodes
+          Faction: Amanamu (Lightless Legions) for Omens and minion-relevant
+          defensive Desecrated mods
+          Produces: Abyssal Bones, Exalted Orbs, Omens
 
-RITUAL:   "Bring Forth the Unseen" (Summoning Circles)
-          Produces: Fracturing Orbs, Omens, uniques
+RITUAL:   Ritual sub-tree + reduced deferment cost
+          Produces: Omens, uniques
 
-BREACH:   Genesis Tree first
-          Produces: Catalysts, rings with additional minion projectiles
+BREACH:   Genesis Tree first → Shape the Change → Power in Rares
+          Produces: Catalysts, minion-projectile rings, Hiveblood
 
-DELIRIUM: Once ready to sustain full fog coverage at T15
+DELIRIUM: +4 Spread mandatory. Engage when fog at T15 is sustainable
           Produces: Divines, Liquid Emotions, Megalomaniac Jewels
 ```
+
+---
+
+## Atlas Masters
+
+Three Masters, each with a 12-node sub-tree. One active per map; switching between maps is free; all three progress simultaneously. Up to 4 nodes from the active Master apply per map.
+
+**Doryani** — the relevant one for SSF target farming. The Precursor Terraformer node lets map bosses guard a Terraformer that changes the biome of adjacent maps, activating biome-specific Atlas nodes. This is how you direct what content/currency a region produces. Also gives an extra revive — useful for 6-mod, 3-tablet maps — and irradiation (+1 area level).
+
+**Hilda** — boss-focused. More rares and uniques, boss buffs. Ancient Inscriptions grants 8% Tablet Effect per different Tablet. Use when running pinnacle bosses; activate before opening a pinnacle fragment.
+
+**Jado** — strongbox and unique-item oriented. Least aligned with minion SSF crafting; skip unless farming strongboxes specifically.
+
+---
+
+## Biomes
+
+Biome-specific Atlas nodes grant bonuses depending on the map's biome. Combined with Doryani's Precursor Terraformer (which forces a map into a chosen biome), this enables target farming. Spec the biome nodes you want, then terraform maps into that biome.
+
+| Biome | Bonus focus |
+|---|---|
+| Forest | Up to 65% increased rare monsters — best for rare-density farming |
+| Swamp | Node available: Exalted Orb has 10% chance to drop as Chaos Orb |
+| Grass | Perfect currencies |
+| Mountain | Tablets / runes |
+| Cities | Juiced 4-tablet maps |
+| Water | Gold (+50%) or currency from chests (+15%) |
+
+---
+
+## Tablets
+
+Each non-league-mechanic tablet slot increases the drop chance of tablets from random content appearing in the map. Filling all 3 slots with the same tablet type (e.g. 3× Abyss) shows only that mechanic and drops fewer of those tablets. For tablet sustain, run mixed tablets or boss-rush maps with Irradiated/Overseer tablets.
+
+Key tablet mods: "Map contains an additional Abyss" (mandatory on Abyss tablets), Elevated tablets give +1 zone level, Overseer empowers the map boss for extra loot.
 
 ---
 
@@ -214,7 +269,11 @@ Scales all ranged minions simultaneously — Skeletal Snipers, Arsonists and Fro
 
 Bases: Rattling Sceptre or Omen Sceptre. Target mod is +# to Level of all Minion Skills — it is a **suffix**. Use Omen of Dextral Exaltation to force Exalts into the suffix slot when hunting it. Use Essence of Command to lock % Increased Damage to Allies as the main prefix. % increased Spirit is the second most valuable prefix.
 
-**4. Pending gem upgrades**
+**4. Abyssal Eye socketable + Heart of the Well**
+
+Amanamu's Gaze: up to +30% DoT Multiplier for minions. For Heart of the Well jewels, the Tier A priority for minion builds is defensive utility — crit mods do not propagate to minion damage in the current patch, so do not chase them.
+
+**5. Pending gem upgrades**
 
 Skeletal Reaver: Minion Splash I → II · Skeletal Frost Mage: Multishot I → II
 
@@ -229,6 +288,24 @@ Skeletal Reaver: Minion Splash I → II · Skeletal Frost Mage: Multishot I → 
 | Rings | ES | Elemental res | Chaos res irrelevant post-CI. Breach rings with minion projectile mod override everything else here |
 | Amulet | Spirit + Life | +Minion Skill Levels | +Minion Skill Levels is a suffix. Divine if values are low; do not replace if mods are correct |
 | Boots | ES | Movement Speed T1 (ilvl 82) | Essence of Enhancement to lock ES. Regal hunting movespeed |
+
+---
+
+# Part IV — Early Endgame (historical record)
+
+> This section documents the path from campaign-end to a complete Atlas as it worked in 0.5. It does not apply to the current character (Atlas complete, 4 ascendancies taken) — it is kept as a record of the patch.
+
+## Fortress Questline Path
+
+Atlas progression in 0.5 happens inside the Precursor Fortress walls — normal mapping does not progress the Atlas. The path:
+
+Rush the +1 tablet mod node at the centre of the Atlas tree (not the top). Grab all "Tablet" and "Waystone" nodes (Ctrl+F on the tree to highlight them). Unlock "Irradiated tablets can now drop" — they no longer drop by default.
+
+Clear a corrupted tower area to unlock Doryani as a Master, which gives +1 revive (allowing 6-mod maps with 3 tablets and double the attempts). Stay in the Fortress until you reach T15 maps and roughly 50-100 Atlas points.
+
+From there, either venture out into whichever mechanic with semi-decent Atlas bonuses, or finish the Arbiter of Divinity questline in the Fortress for +40 Atlas points and rush the top of the tree for 4-mod tablets. Later, hunt Matriarch/Patriarch citadels (red beams in the fog outside the walls) to fight Arbiter of Divinity repeatedly — roughly +40 Atlas points per kill — to complete the Atlas.
+
+Waystone sustain: buy 3× T14 from Doryani and combine them into 1× T15 at the Reforging Bench if you run dry.
 
 ---
 
